@@ -55,46 +55,46 @@ const Register = () => {
                             <input type="password" id="form3Example5" className="form-control form-control-lg" placeholder='Confirm Password'/>
                             {/* <label className="form-label" htmlFor="form3Example8">Confirm Password</label> */}
                             </div>
-                            <div className="form-check d-flex justify-content-center mb-5">
+                            <div className="form-check d-flex justify-content-start mb-5">
                             <input className="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
                             <label className="form-check-label" htmlFor="form2Example3g">
-                            I agree with <a href="#!" className="text-body"><u>Terms and Conditions</u></a>
+                            I agree with <a href="#!" className="text-body">Terms and Conditions</a>
                             </label> 
                             </div>
+                            <div className="d-flex justify-content-center fw-bold text-white">
+                            <button type="button"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 fw-bold text-white"
+                            style={{
+                                width: '100%', margin: '6px 4px', background: '#1E90FF', fontSize: '14px'}}>Sign Up</button>
+                            </div>
+                            <div className="d-flex justify-content-center fw-bold text-white">
+                            <button type="button"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 fw-bold text-white"
+                            style={{
+                                width: '100%', margin: '6px 4px', background: '#4169E1', fontSize: '14px'}}>Sign Up with Facebook</button>
+                            </div>
                             <div className="d-flex justify-content-center  text-white">
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 fw-bold text-white"
                             style={{
-                                width: '100%', margin: '6px 4px', background: '#1E90FF', fontSize: '16px'}}>Sign Up</button>
-                            </div>
-                            <div className="d-flex justify-content-center text-white">
-                            <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
-                            style={{
-                                width: '100%', margin: '6px 4px', background: '#4169E1', fontSize: '16px'}}>Sign Up with Facebook</button>
-                            </div>
-                            <div className="d-flex justify-content-center  text-white">
-                            <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
-                            style={{
-                                width: '100%', margin: '6px 4px', background: '#CD5C5C', fontSize: '16px'}}>Sign Up with Google Plus</button>
+                                width: '100%', margin: '6px 4px', background: '#CD5C5C', fontSize: '14px'}}>Sign Up with Google Plus</button>
                             </div>
                             <div className="d-flex justify-content-center  text-white"
                            >
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 fw-bold text-white"
                             style={{
-                                width: '100%', margin: '6px 4px', background: '#ff7f50', fontSize: '16px'}}>Sign Up with Auth0</button>
+                                width: '100%', margin: '6px 4px', background: '#ff7f50', fontSize: '14px'}}>Sign Up with Auth0</button>
                             </div>
-                            <div className="d-flex justify-content-center  text-white">
+                            <div className="d-flex justify-content-center fw-bold text-white">
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 fw-bold text-white"
                             style={{
-                                width: '100%', margin: '6px 4px', background: '#ffd700', fontSize: '16px'}}>Sign Up with Firebase</button>
+                                width: '100%', margin: '6px 4px', background: '#ffd700', fontSize: '14px'}}>Sign Up with Firebase</button>
                             </div>
                             
-                            <p className="text-center text-muted mt-5 mb-0">Already have an account? <a href="/"
-                                className="fw-bold text-body"><u>Login here</u></a></p>
+                            <p className="text-center text-primary mt-5 mb-0">Already have an account? <a href="/"
+                                className="fw-bold text-primary">Login here</a></p>
                             </div>            
 
                         

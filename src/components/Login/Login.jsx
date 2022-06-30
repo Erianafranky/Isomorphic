@@ -45,9 +45,9 @@ const Register = () => {
                             <div className="col-md-6 mb-4">
                                  
                                 <button type="button"
-                                className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                                className="btn btn-success btn-block btn-lg gradient-custom-5 text-white fw-bold"
                                 style={{
-                                     margin: '6px 4px', backgroundColor: '#1E90FF', fontSize: '16px', float: 'right'}}>Sign in</button>
+                                     margin: '6px 4px', backgroundColor: '#1E90FF', fontSize: '14px', float: 'right'}}>Sign in</button>
                              
                             </div>
                             </div>
@@ -57,36 +57,36 @@ const Register = () => {
                                 username: demo password: demodemo or just click on any button.
                             </p>
                             <hr className='mt-5 mb-5'></hr>
-                            <div className="d-flex justify-content-center text-white">
+                            <div className="d-flex justify-content-center">
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-white fw-bold"
                             style={{
-                                width: '100%', margin: '6px 4px', backgroundColor: '#4169E1', fontSize: '16px'}}>Sign in with Facebook</button>
+                                width: '100%', margin: '6px 4px', backgroundColor: '#4169E1', fontSize: '14px'}}>Sign in with Facebook</button>
                             </div>
-                            <div className="d-flex justify-content-center  text-white">
+                            <div className="d-flex justify-content-center">
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-white fw-bold"
                             style={{
-                                width: '100%', margin: '6px 4px', backgroundColor: '#CD5C5C', fontSize: '16px'}}>Sign in with Google Plus</button>
+                                width: '100%', margin: '6px 4px', backgroundColor: '#CD5C5C', fontSize: '14px'}}>Sign in with Google Plus</button>
                             </div>
-                            <div className="d-flex justify-content-center  text-white"
+                            <div className="d-flex justify-content-center"
                            >
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-white fw-bold"
                             style={{
-                                width: '100%', margin: '6px 4px', backgroundColor: '#ff7f50', fontSize: '16px'}}>Sign in with Auth0</button>
+                                width: '100%', margin: '6px 4px', backgroundColor: '#ff7f50', fontSize: '14px'}}>Sign in with Auth0</button>
                             </div>
-                            <div className="d-flex justify-content-center  text-white">
+                            <div className="d-flex justify-content-center">
                             <button type="button"
-                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-body"
+                            className="btn btn-success btn-block btn-lg gradient-custom-5 text-white fw-bold"
                             style={{
-                                width: '100%', margin: '6px 4px', backgroundColor: '#ffd700', fontSize: '16px'}}>Sign in with Firebase</button>
+                                width: '100%', margin: '6px 4px', backgroundColor: '#ffd700', fontSize: '14px'}}>Sign in with Firebase</button>
                             </div>
                             
-                            <p className="text-center text-muted mt-5 mb-0"><a href="#!"
+                            <p className="text-center text-muted mt-5 mb-0"><a href="/forgot"
                                 className="text-body">Forgot Password</a></p>
                             <p className="text-center text-primary mt-5 mb-0"><a href="/register"
-                                className="text-body text-primary">Create an Isomorphic account</a></p>
+                                className="text-primary">Create an Isomorphic account</a></p>
                             </div>            
 
                         
