@@ -1,0 +1,29 @@
+
+h3 {
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.gradient-custom-5 {
+    color: white;
+}
+a {
+    text-decoration: none;
+    
+}
+
+.star {
+    color: red;
+}
+
+hr {
+    border-top: dotted 2px;
+   
+    height:1px;
+}
